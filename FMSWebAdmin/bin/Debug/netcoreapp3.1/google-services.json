@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "423296710074",
+    "firebase_url": "https://fms-kiosk.firebaseio.com",
+    "project_id": "fms-kiosk",
+    "storage_bucket": "fms-kiosk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423296710074:android:13a858d67bc4dcccae5983",
+        "android_client_info": {
+          "package_name": "com.example.my_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423296710074-l3scq0qs4el244lp5r1kg6ht466pl6nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHKPYXd16UyoplekLRS-FgVRQ-JVAkJSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423296710074-l3scq0qs4el244lp5r1kg6ht466pl6nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

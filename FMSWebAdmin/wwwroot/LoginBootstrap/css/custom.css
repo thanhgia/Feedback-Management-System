@@ -1,0 +1,33 @@
+﻿
+.login100-form-title {
+    background-color: #0366d6;
+}
+
+.txt2 {
+    color: #0366d6;
+}
+
+.txt2:hover {
+    color: #081f38;
+}
+
+.txt3 {
+    color: #0366d6;
+}
+
+.txt3:hover {
+    color: #081f38;
+}
+
+.login100-form-btn {
+    background-color: #0366d6;
+}
+
+#loginGoogleButton {
+    padding-top: 20px;
+    margin-left:130px;
+}
+
+.login100-form-btn:hover {
+    background-color: #081f38;
+}

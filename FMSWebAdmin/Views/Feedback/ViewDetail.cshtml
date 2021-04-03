@@ -1,0 +1,845 @@
+﻿@model SurveyModel
+@{
+    ViewData["Title"] = "CreateDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="~/content/material-design-iconic-font/css/materialdesignicons.min.css" rel="stylesheet" />
+<link href="~/MainBootstrap/documentation/css/custom.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script>
+    var count = 0;
+    var listQuestion = [];
+    var listQuestionInsert = [];
+    var listQuestionDelete = [];
+    var fbJson;
+
+    function makeid(length) {
+        var result = '';
+        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        var charactersLength = characters.length;
+        for (var i = 0; i < length; i++) {
+            result += characters.charAt(Math.floor(Math.random() * charactersLength));
+        }
+        return result;
+    }
+
+    $(document).ready(function () {
+        fbJson = @Html.Raw(ViewBag.feedback);
+        listQuestion = @Html.Raw(ViewBag.listQuestion);
+        showNote();
+        showTable();
+
+        function showTable() {
+            for (var i = 0; i < listQuestion.length; i++) {
+                var question = listQuestion[i];
+                var type = question.TypeOfQuestion;
+                var title = question.ContentQuestion;
+
+                $('#showQuestionTable').append('<tr><td>' + (i+1) + '</ td><td>' + title + '</ td><td>' + type + '</ td><td><button class="review" data-toggle="modal" data-target="#review">Review</button></td><td><button class="delete" data-toggle="modal" data-target="#delete" onclick="getRowIndex(' + i + ')">Delete</button></td></tr>');
+            }
+
+            for (var i = 0; i < listQuestionInsert.length; i++) {
+                var question = listQuestionInsert[i];
+                var type = question.TypeOfQuestion;
+                var title = question.ContentQuestion;
+
+                $('#showQuestionTable').append('<tr><td>' + (i + listQuestionInsert.length + 1) + '</ td><td>' + title + '</ td><td>' + type + '</ td><td><button class="review" data-toggle="modal" data-target="#review">Review</button></td><td><button class="delete" data-toggle="modal" data-target="#delete" onclick="getRowIndex(' + i + listQuestionInsert.length + ')">Delete</button></td></tr>');
+            }
+        }
+
+        $('body').on('click', '#add', function (event) {
+            var question = { QuestionId: "", TypeOfQuestion: 0, ContentQuestion: "", AnswerOption: "" };
+            var type = showTypeContent(document.getElementById('questionTypeDropDown').selectedOptions[0].value);
+            var title = document.getElementById('title').value;
+            var answer = "";
+            $("#answerArea > div > div").each((index, elem) => {
+                answer += $('#' + elem.id).text() + "//";
+            });
+
+            if (validateQuestion()) {
+                checkNoContent();
+                question.QuestionId = makeid(7);
+                $('#showQuestionTable').append('<tr><td>' + $('#showQuestionTable tr').length + '</ td><td>' + title + '</ td><td>' + type + '</ td><td><button class="review" data-toggle="modal" data-target="#review">Review</button></td><td><button data-toggle="modal" data-target="#delete" onclick="getRowIndex(' + $('#showQuestionTable tr').length + ')">Delete</button></td></tr>');
+
+                question.TypeOfQuestion = parseInt(document.getElementById('questionTypeDropDown').selectedOptions[0].value);
+                question.ContentQuestion = title;
+                question.AnswerOption = answer;
+                listQuestionInsert[listQuestionInsert.length] = question;
+
+                title = document.getElementById('title').value = "";
+                document.getElementById('answer').value = "";
+                $("#answerArea").empty();
+                count = 0;
+            }
+        });
+
+        $('body').on('click', '.review', function (event) {
+            var index = $(this).closest('tr').index();
+            if (index <= listQuestion.length - 1) {
+                $('#question').text(listQuestion[$(this).closest('tr').index()].ContentQuestion);
+                var type = listQuestion[$(this).closest('tr').index()].TypeOfQuestion;
+
+                $("#content").empty();
+                if (document.getElementById('answer-child') != null) {
+                    $("#answerField").empty();
+                }
+
+                var answer = listQuestion[$(this).closest('tr').index()].AnswerOption;
+            }
+            else {
+                $('#question').text(listQuestionInsert[index - listQuestion.length].ContentQuestion);
+                var type = listQuestionInsert[index - listQuestion.length].TypeOfQuestion;
+
+                $("#content").empty();
+                if (document.getElementById('answer-child') != null) {
+                    $("#answerField").empty();
+                }
+
+                var answer = listQuestionInsert[index - listQuestion.length].AnswerOption;
+            }
+
+            var listAnswer = [];
+            if (type == 3 || type == 4) {
+                listAnswer = answer.split("//");
+            }
+            switch (type) {
+                case 4:
+                    var container = document.getElementById('answerField');
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", "answer-child");
+                    container.appendChild(answerchild);
+
+                    for (var i = 0; i < listAnswer.length; i++) {
+                        if (listAnswer[i] != "") {
+                            var radiobox = document.createElement("input");
+                            radiobox.setAttribute("type", "radio");
+                            radiobox.setAttribute("id", listAnswer[i]);
+                            radiobox.setAttribute("value", listAnswer[i]);
+                            radiobox.setAttribute("name", "radioGroup");
+
+                            var label = document.createElement('label')
+                            label.setAttribute("for", listAnswer[i]);
+
+                            var description = document.createTextNode(listAnswer[i]);
+                            label.appendChild(description);
+
+                            var newline = document.createElement('br');
+
+                            answerchild.appendChild(radiobox);
+                            answerchild.appendChild(label);
+                            answerchild.appendChild(newline);
+                        }
+                    }
+                    break;
+                case 3:
+                    var container = document.getElementById('answerField');
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", "answer-child");
+
+                    container.appendChild(answerchild);
+
+                    for (var i = 0; i < listAnswer.length; i++) {
+                        if (listAnswer[i] != "") {
+                            var checkbox = document.createElement("input");
+                            checkbox.setAttribute("type", "checkbox");
+                            checkbox.setAttribute("id", listAnswer[i]);
+                            checkbox.setAttribute("value", listAnswer[i]);
+
+                            var label = document.createElement('label')
+                            label.setAttribute("for", listAnswer[i]);
+
+                            var description = document.createTextNode(listAnswer[i]);
+                            label.appendChild(description);
+
+                            var newline = document.createElement('br');
+
+                            answerchild.appendChild(checkbox);
+                            answerchild.appendChild(label);
+                            answerchild.appendChild(newline);
+                        }
+                    }
+                    break;
+                case 2:
+                    var container = document.getElementById('answerField');
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", "answer-child");
+                    answerchild.setAttribute("class", "answer-div");
+
+                    container.appendChild(answerchild);
+
+                    $('#answer-child').append('<input type="radio" name="rating5" id="star-1" class="starRating"/>');
+                    $('#answer-child').append('<label for="star-1" class="label-star"></label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating5" id="star-2" class="starRating"/>');
+                    $('#answer-child').append('<label for="star-2" class="label-star"></label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating5" id="star-3" class="starRating"/>');
+                    $('#answer-child').append('<label for="star-3" class="label-star"></label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating5" id="star-4" class="starRating"/>');
+                    $('#answer-child').append('<label for="star-4" class="label-star"></label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating5" id="star-5" class="starRating"/>');
+                    $('#answer-child').append('<label for="star-5" class="label-star"></label>');
+                    break;
+                case 1:
+                    var container = document.getElementById('answerField');
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", "answer-child");
+                    answerchild.setAttribute("class", "answer-div");
+
+                    container.appendChild(answerchild);
+
+                    $('#answer-child').append('<input type="radio" name= "emotion1" id="emote-1" class="emoteRating"/>');
+                    $('#answer-child').append('<label for="emote-1" class="label-emote mdi mdi-emoticon-excited"></label>');
+
+                    $('#answer-child').append('<input type="radio" name= "emotion2" id="emote-2" class="emoteRating"/>');
+                    $('#answer-child').append('<label for="emote-2" class="label-emote mdi mdi-emoticon-happy "></label>');
+
+                    $('#answer-child').append('<input type="radio" name= "emotion3" id="emote-3" class="emoteRating"/>');
+                    $('#answer-child').append('<label for="emote-3" class="label-emote mdi mdi-emoticon-neutral"></label>');
+
+                    $('#answer-child').append('<input type="radio" name= "emotion4" id="emote-4" class="emoteRating"/>');
+                    $('#answer-child').append('<label for="emote-4" class="label-emote mdi mdi-emoticon-sad"></label>');
+
+                    $('#answer-child').append('<input type="radio" name= "emotion5" id="emote-5" class="emoteRating"/>');
+                    $('#answer-child').append('<label for="emote-5" class="label-emote mdi mdi-emoticon-dead"></label>');
+                    break;
+                default:
+                    var container = document.getElementById('answerField');
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", "answer-child");
+                    answerchild.setAttribute("class", "answer-10-div");
+
+                    container.appendChild(answerchild);
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-10" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-10" class="label-scale">10</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-9" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-9" class="label-scale">9</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-8" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-8" class="label-scale">8</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-7" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-7" class="label-scale">7</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-6" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-6" class="label-scale">6</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-5" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-5" class="label-scale">5</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-4" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-4" class="label-scale">4</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-3" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-3" class="label-scale">3</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-2" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-2" class="label-scale">2</label>');
+
+                    $('#answer-child').append('<input type="radio" name="rating10" id="rate-1" class="ratingScale"/>');
+                    $('#answer-child').append('<label for="rate-1" class="label-scale"1>1</label>');
+                    break;
+            }
+        });
+
+        $('body').on('click', '#btnDelete', function (event) {
+            var index = $('#rowIndex').val();
+            if (index <= (listQuestion.length - 1)) {
+                listQuestion.splice((index), 1);
+                listQuestionDelete[listQuestionDelete.length] = listQuestion[index];
+            }
+            else {
+                listQuestionInsert.splice((index - listQuestion.length - 1), 1);
+            }
+            $('#showQuestionTable tbody').empty();
+            showTable();
+        });
+    });
+
+    function getRowIndex(i) {
+        $('#rowIndex').val(i);
+    }
+
+
+    function showTypeContent(type) {
+        switch (type) {
+            case "4":
+                return "Chọn 1 đáp án";
+                break;
+            case "3":
+                return "Chọn nhiều đáp án";
+                break;
+            case "1":
+                return "Icon cảm xúc";
+                break;
+            case "2":
+                return "5 mức độ";
+                break;
+            default:
+                return "Thang điểm 1-10";
+                break;
+        }
+    }
+
+    function checkNoContent() {
+        var rowCount = document.getElementById("showQuestionTable").rows.length;
+        if (rowCount == 2 && document.getElementById("showQuestionTable").rows[1].cells.length == 1) {
+            document.getElementById("showQuestionTable").deleteRow(1);
+        }
+    }
+
+    function showNote() {
+        var type = document.getElementById('questionTypeDropDown').selectedOptions[0].value;
+        switch (type) {
+            case "4":
+            case "3":
+                document.getElementById('note').innerHTML = "";
+                break;
+            case "1":
+            case "2":
+            default:
+                document.getElementById('note').innerHTML = "Không cần nhập đáp án";
+                break;
+        }
+    }
+
+    function validateQuestion() {
+        showNote();
+        document.getElementById('titleError').innerHTML = " ";
+
+        var type = document.getElementById('questionTypeDropDown').selectedOptions[0].value;
+        var title = document.getElementById('title').value;
+        var check = true;
+
+        if (title != "") {
+            if ((type == "3" || type == "4") && ($("#answerArea > div").length == 0)) {
+                document.getElementById('note').innerHTML = "Câu hỏi cần đáp án";
+                check = false;
+            }
+        } else {
+            document.getElementById('titleError').innerHTML = "Câu hỏi không thể để trống";
+            check = false;
+        }
+        return check;
+    }
+
+    function insertAnswer() {
+        var ans = $('#answer').val();
+        if (ans != "") {
+            var container = document.getElementById('answerArea');
+            var answerchild = document.createElement("div");
+            answerchild.setAttribute("id", "ansDiv" + count);
+            answerchild.setAttribute("class", "divAns");
+            container.appendChild(answerchild);
+
+            var anschild = document.createElement("div");
+            anschild.setAttribute("class", "answerContent");
+            anschild.setAttribute("id", "answerContent" + count);
+            answerchild.appendChild(anschild);
+            $('#' + "answerContent" + count).text(ans);
+
+            var ansRemove = document.createElement("input");
+            ansRemove.setAttribute("type", "button");
+            ansRemove.setAttribute("class", "ansRemove");
+            ansRemove.setAttribute("id", "ans" + count);
+            answerchild.appendChild(ansRemove);
+
+            $('#answer').val("");
+            $('.ansRemove').val("x");
+
+            count++;
+        } else {
+            document.getElementById('note').innerHTML = "Bạn chưa nhập câu trả lời";
+        }
+    }
+
+    $('body').on('click', '.ansRemove', function (event) {
+        $(this).parent().remove();
+    });
+
+    function showFeedback() {
+        $("#content").empty();
+        $("#image").empty();
+        $("#answerField").empty();
+        var img = document.createElement('img');
+        @*img.src = '@ViewBag.FeedbackInfo.LinkImageBrand';*@
+        document.getElementById('image').appendChild(img);
+
+        $('#feedbackTitle').text(fbJson.Title);
+        var container = document.getElementById('content');
+
+        for (var i = 0; i < listQuestion.length; i++) {
+            var divId = "q" + i;
+            var type = listQuestion[i].TypeOfQuestion;
+            var question = document.createElement("div");
+            question.setAttribute("id", divId);
+            question.setAttribute("class", "divQuestion");
+
+            $('#content').append('<br />');
+            container.appendChild(question);
+            var getQuestion = document.getElementById(divId);
+
+            var label = document.createElement("label");
+            label.setAttribute("id", listQuestion[i].QuestionId);
+            label.setAttribute("class", "quesDiv");
+
+            getQuestion.appendChild(label);
+            document.getElementById(listQuestion[i].QuestionId).innerHTML = "Câu " + (i+1) + ": " + listQuestion[i].ContentQuestion;
+            $('#' + divId).append('<br />');
+
+
+            if (type == 3 || type == 4) {
+                var answer = listQuestion[i].AnswerOption;
+                var listAnswer = answer.split("//");
+
+            }
+            switch (type) {
+                case 1:
+                    var inputId = "radioGroup" + divId;
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", divId + "-emote");
+                    answerchild.setAttribute("class", "answer-div");
+
+                    getQuestion.appendChild(answerchild);
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-1" class="emoteRating" value="5"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-1" class="label-emote mdi mdi-emoticon-excited"></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-2" class="emoteRating" value="4"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-2" class="label-emote mdi mdi-emoticon-happy "></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-3" class="emoteRating" value="3"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-3" class="label-emote mdi mdi-emoticon-neutral"></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-4" class="emoteRating" value="2"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-4" class="label-emote mdi mdi-emoticon-sad"></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-5" class="emoteRating" value="1"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-5" class="label-emote mdi mdi-emoticon-dead"></label>');
+                    $('#' + divId).append('<br />');
+                    break;
+                case 2:
+                    var inputId = "radioGroup" + divId;
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", divId + "5");
+                    answerchild.setAttribute("class", "answer-div");
+
+                    getQuestion.appendChild(answerchild);
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-1" class="starRating" value="5"/>');
+                    $('#' + divId + "5").append('<label for="star-1" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-2" class="starRating" value="4"/>');
+                    $('#' + divId + "5").append('<label for="star-2" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-3" class="starRating" value="3"/>');
+                    $('#' + divId + "5").append('<label for="star-3" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-4" class="starRating" value="2"/>');
+                    $('#' + divId + "5").append('<label for="star-4" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-5" class="starRating" value="1"/>');
+                    $('#' + divId + "5").append('<label for="star-5" class="label-star"></label>');
+                    $('#' + divId).append('<br />');
+                    break;
+                case 3:
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("class", "answerDiv");
+                    answerchild.setAttribute("id", divId + "checkbox");
+
+                    getQuestion.appendChild(answerchild);
+                    for (var n = 0; n < listAnswer.length; n++) {
+                        if (listAnswer[n] != "") {
+                            var inputId = "checkbox" + divId + n;
+                            var checkbox = document.createElement("input");
+                            checkbox.setAttribute("type", "checkbox");
+                            checkbox.setAttribute("id", divId + "-ans" + n);
+                            checkbox.setAttribute("name", inputId);
+                            checkbox.setAttribute("value", listAnswer[n]);
+
+                            var label = document.createElement('label')
+                            label.setAttribute("for", divId + "-ans" + n);
+                            label.setAttribute("class", "ansContent");
+
+                            var description = document.createTextNode(listAnswer[n]);
+                            label.appendChild(description);
+
+                            answerchild.appendChild(checkbox);
+                            answerchild.appendChild(label);
+                            $('#' + divId + "checkbox").append('<br />');
+                        }
+                    }
+                    break;
+                case 4:
+                    var inputId = "radioGroup" + divId;
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("class", "answerDiv");
+                    answerchild.setAttribute("id", divId + "radio");
+
+                    getQuestion.appendChild(answerchild);
+                    for (var a = 0; a < listAnswer.length; a++) {
+                        if (listAnswer[a] != "") {
+                            var radiobox = document.createElement("input");
+                            radiobox.setAttribute("type", "radio");
+                            radiobox.setAttribute("id", divId + "-ans" + a);
+                            radiobox.setAttribute("value", listAnswer[a]);
+                            radiobox.setAttribute("name", "radioGroup" + divId);
+
+                            var label = document.createElement('label')
+                            label.setAttribute("for", divId + "-ans" + a);
+                            label.setAttribute("class", "ansContent");
+
+                            var description = document.createTextNode(listAnswer[a]);
+                            label.appendChild(description);
+
+                            answerchild.appendChild(radiobox);
+                            answerchild.appendChild(label);
+                            $('#' + divId + "radio").append('<br />');
+                        }
+                    }
+                    break;
+                case 5:
+                    var inputId = "radioGroup" + divId;
+                    $('#' + divId).append('<br />');
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", divId + "-10");
+                    answerchild.setAttribute("class", "answer-10-div");
+
+                    getQuestion.appendChild(answerchild);
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-10" class="ratingScale" value="10"/>');
+                    $('#' + divId + "-10").append('<label for="rate-10" class="label-scale">10</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-9" class="ratingScale" value="9"/>');
+                    $('#' + divId + "-10").append('<label for="rate-9" class="label-scale">9</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-8" class="ratingScale" value="8"/>');
+                    $('#' + divId + "-10").append('<label for="rate-8" class="label-scale">8</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-7" class="ratingScale" value="7"/>');
+                    $('#' + divId + "-10").append('<label for="rate-7" class="label-scale">7</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-6" class="ratingScale" value="6"/>');
+                    $('#' + divId + "-10").append('<label for="rate-6" class="label-scale">6</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-5" class="ratingScale" value="5"/>');
+                    $('#' + divId + "-10").append('<label for="rate-5" class="label-scale">5</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-4" class="ratingScale" value="4"/>');
+                    $('#' + divId + "-10").append('<label for="rate-4" class="label-scale">4</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-3" class="ratingScale" value="3"/>');
+                    $('#' + divId + "-10").append('<label for="rate-3" class="label-scale">3</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-2" class="ratingScale" value="2"/>');
+                    $('#' + divId + "-10").append('<label for="rate-2" class="label-scale">2</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-1" class="ratingScale" value="1"/>');
+                    $('#' + divId + "-10").append('<label for="rate-1" class="label-scale">1</label>');
+                    $('#' + divId).append('<br />');
+                    break;
+            }
+        }
+
+        for (var i = 0; i < listQuestionInsert.length; i++) {
+            var divId = "q" + (i + listQuestion.length);
+            var type = listQuestionInsert[i].TypeOfQuestion;
+            var question = document.createElement("div");
+            question.setAttribute("id", divId);
+            question.setAttribute("class", "divQuestion");
+
+            $('#content').append('<br />');
+            container.appendChild(question);
+            var getQuestion = document.getElementById(divId);
+
+            var label = document.createElement("label");
+            label.setAttribute("id", listQuestionInsert[i].QuestionId);
+            label.setAttribute("class", "quesDiv");
+
+            getQuestion.appendChild(label);
+            document.getElementById(listQuestionInsert[i].QuestionId).innerHTML = "Câu " + (i + listQuestion.length + 1) + ": " + listQuestionInsert[i].ContentQuestion;
+            $('#' + divId).append('<br />');
+
+
+            if (type == 3 || type == 4) {
+                var answer = listQuestionInsert[i].AnswerOption;
+                var listAnswer = answer.split("//");
+
+            }
+            switch (type) {
+                case 1:
+                    var inputId = "radioGroup" + divId;
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", divId + "-emote");
+                    answerchild.setAttribute("class", "answer-div");
+
+                    getQuestion.appendChild(answerchild);
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-1" class="emoteRating" value="5"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-1" class="label-emote mdi mdi-emoticon-excited"></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-2" class="emoteRating" value="4"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-2" class="label-emote mdi mdi-emoticon-happy "></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-3" class="emoteRating" value="3"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-3" class="label-emote mdi mdi-emoticon-neutral"></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-4" class="emoteRating" value="2"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-4" class="label-emote mdi mdi-emoticon-sad"></label>');
+
+                    $('#' + divId + "-emote").append('<input type="radio" name= "' + inputId + '" id="emote-5" class="emoteRating" value="1"/>');
+                    $('#' + divId + "-emote").append('<label for="emote-5" class="label-emote mdi mdi-emoticon-dead"></label>');
+                    $('#' + divId).append('<br />');
+                    break;
+                case 2:
+                    var inputId = "radioGroup" + divId;
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", divId + "5");
+                    answerchild.setAttribute("class", "answer-div");
+
+                    getQuestion.appendChild(answerchild);
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-1" class="starRating" value="5"/>');
+                    $('#' + divId + "5").append('<label for="star-1" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-2" class="starRating" value="4"/>');
+                    $('#' + divId + "5").append('<label for="star-2" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-3" class="starRating" value="3"/>');
+                    $('#' + divId + "5").append('<label for="star-3" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-4" class="starRating" value="2"/>');
+                    $('#' + divId + "5").append('<label for="star-4" class="label-star"></label>');
+
+                    $('#' + divId + "5").append('<input type="radio" name= "' + inputId + '" id="star-5" class="starRating" value="1"/>');
+                    $('#' + divId + "5").append('<label for="star-5" class="label-star"></label>');
+                    $('#' + divId).append('<br />');
+                    break;
+                case 3:
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("class", "answerDiv");
+                    answerchild.setAttribute("id", divId + "checkbox");
+
+                    getQuestion.appendChild(answerchild);
+                    for (var n = 0; n < listAnswer.length; n++) {
+                        if (listAnswer[n] != "") {
+                            var inputId = "checkbox" + divId + n;
+                            var checkbox = document.createElement("input");
+                            checkbox.setAttribute("type", "checkbox");
+                            checkbox.setAttribute("id", divId + "-ans" + n);
+                            checkbox.setAttribute("name", inputId);
+                            checkbox.setAttribute("value", listAnswer[n]);
+
+                            var label = document.createElement('label')
+                            label.setAttribute("for", divId + "-ans" + n);
+                            label.setAttribute("class", "ansContent");
+
+                            var description = document.createTextNode(listAnswer[n]);
+                            label.appendChild(description);
+
+                            answerchild.appendChild(checkbox);
+                            answerchild.appendChild(label);
+                            $('#' + divId + "checkbox").append('<br />');
+                        }
+                    }
+                    break;
+                case 4:
+                    var inputId = "radioGroup" + divId;
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("class", "answerDiv");
+                    answerchild.setAttribute("id", divId + "radio");
+
+                    getQuestion.appendChild(answerchild);
+                    for (var a = 0; a < listAnswer.length; a++) {
+                        if (listAnswer[a] != "") {
+                            var radiobox = document.createElement("input");
+                            radiobox.setAttribute("type", "radio");
+                            radiobox.setAttribute("id", divId + "-ans" + a);
+                            radiobox.setAttribute("value", listAnswer[a]);
+                            radiobox.setAttribute("name", "radioGroup" + divId);
+
+                            var label = document.createElement('label')
+                            label.setAttribute("for", divId + "-ans" + a);
+                            label.setAttribute("class", "ansContent");
+
+                            var description = document.createTextNode(listAnswer[a]);
+                            label.appendChild(description);
+
+                            answerchild.appendChild(radiobox);
+                            answerchild.appendChild(label);
+                            $('#' + divId + "radio").append('<br />');
+                        }
+                    }
+                    break;
+                case 5:
+                    var inputId = "radioGroup" + divId;
+                    $('#' + divId).append('<br />');
+                    var answerchild = document.createElement("div");
+                    answerchild.setAttribute("id", divId + "-10");
+                    answerchild.setAttribute("class", "answer-10-div");
+
+                    getQuestion.appendChild(answerchild);
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-10" class="ratingScale" value="10"/>');
+                    $('#' + divId + "-10").append('<label for="rate-10" class="label-scale">10</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-9" class="ratingScale" value="9"/>');
+                    $('#' + divId + "-10").append('<label for="rate-9" class="label-scale">9</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-8" class="ratingScale" value="8"/>');
+                    $('#' + divId + "-10").append('<label for="rate-8" class="label-scale">8</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-7" class="ratingScale" value="7"/>');
+                    $('#' + divId + "-10").append('<label for="rate-7" class="label-scale">7</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-6" class="ratingScale" value="6"/>');
+                    $('#' + divId + "-10").append('<label for="rate-6" class="label-scale">6</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-5" class="ratingScale" value="5"/>');
+                    $('#' + divId + "-10").append('<label for="rate-5" class="label-scale">5</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-4" class="ratingScale" value="4"/>');
+                    $('#' + divId + "-10").append('<label for="rate-4" class="label-scale">4</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-3" class="ratingScale" value="3"/>');
+                    $('#' + divId + "-10").append('<label for="rate-3" class="label-scale">3</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-2" class="ratingScale" value="2"/>');
+                    $('#' + divId + "-10").append('<label for="rate-2" class="label-scale">2</label>');
+
+                    $('#' + divId + "-10").append('<input type="radio" name= "' + inputId + '" id="rate-1" class="ratingScale" value="1"/>');
+                    $('#' + divId + "-10").append('<label for="rate-1" class="label-scale">1</label>');
+                    $('#' + divId).append('<br />');
+                    break;
+            }
+        }
+
+        $('#thanksContent').text(@Html.Raw(ViewBag.thanks));
+    }
+
+    function createUpdateValue() {
+        $('#feedbackInfo').val(JSON.stringify(fbJson));
+        $('#listQuestionInsert').val(JSON.stringify(listQuestionInsert));
+        $('#listQuestionDelete').val(JSON.stringify(listQuestionDelete));
+    }
+</script>
+
+<!-- Popup show row review -->
+<div class="modal" id="review">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="padding-left: 20px; padding-right: 20px; min-height: 200px; width: 70%; margin: auto; margin-top: 50px;">
+            <div class="questionContent"><label id="question"></label></div>
+            <div class="ansContent" id="answerField"></div>
+            <button type="button" class="btn btn-danger" data-dismiss="modal" style="width: 70px; margin-left: 87%; margin-top: 50px;">Đóng</button>
+        </div>
+    </div>
+</div>
+
+<!-- Popup show total review -->
+<div class="modal" id="totalReview">
+    <div id="main">
+        <div id="titleDiv">
+            <div id="image"></div>
+            <div id="feedbackTitle"></div>
+        </div>
+        <div id="content"></div>
+        <div id="endDiv">
+            <div id="thanksContent" style="padding-left: 5px; padding-top: 10px; padding-bottom: 10px;"></div>
+        </div>
+        <button type="button" class="btn btn-danger" data-dismiss="modal" style="margin-left: 92%;">Đóng</button>
+        
+    </div>
+</div>
+
+<!-- Popup delete -->
+<div class="modal" id="delete">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Xác nhận</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                Bạn muốn xóa câu hỏi này?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                <button type="button" class="btn popup-btn-confirm mr-1" data-dismiss="modal" id="btnDelete">OK</button>
+                <input type="hidden" id="rowIndex"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div id="createQuestionForm">
+        <h2 style="font-family: Calibri; text-align: center; padding-top:15px;">Tạo mới câu hỏi</h2>
+        <table class="createQuestionTable">
+            <tr class="createQuestionTr">
+                <td class="createQuestionTd1">Loại câu hỏi:</td>
+                <td id="questionType" class="createQuestionTd2">
+                    <select id="questionTypeDropDown" class="extra-class" style="font-family: fontAwesome;" onchange="showNote()">
+                        <option value="4">&#xf192; Chọn 1 đáp án</option>
+                        <option value="3">&#xf14a; Chọn nhiều đáp án</option>
+                        <option value="1">&#xf044; Icon cảm xúc</option>
+                        <option value="2">&#xf005; 5 mức độ</option>
+                        <option value="5">&#xf005; Thang điểm 1-10</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="createQuestionTr">
+                <td class="createQuestionTd1">* Nội dung câu hỏi:</td>
+                <td class="createQuestionTd2"><textarea id="title" class="extra-class" style="width:100%; height: 100px;" rows="3" required></textarea></td>
+            </tr>
+            <tr>
+                <td class="createQuestionTd1"></td>
+                <td class="createQuestionTd2"> <label id="titleError" style="font-size: 0.9em; color: black;"></label></td>
+            </tr>
+            <tr class="createQuestionTr">
+                <td class="createQuestionTd1">Câu trả lời:</td>
+                <td style="width:30%; height: 150px; float:left;"><textarea id="answer" class="extra-class" style="width:100%; height: 150px;" rows="5"></textarea></td>
+                <td style="width:10%; height: 150px; float:left;"><input type="submit" value="&rarr;" onclick="insertAnswer()" style="margin-left: 10px;" /></td>
+                <td style="width:60%; height: 150px; float:left;" class="createQuestionTd2"><div id="answerArea" class="extra-class" style="width:100%; height: 150px; overflow: auto; "></div></td>
+            </tr>
+            <tr>
+                <td class="createQuestionTd1"></td>
+                <td class="createQuestionTd2"> <label id="note" style="font-size: 0.9em; color: black;"></label></td>
+            </tr>
+        </table>
+        <button type="button" class="btn btn-danger btnClose" data-dismiss="modal" id="add" style="margin-left: 87%;">Tạo mới</button>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered first" id="showQuestionTable">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Nội dung câu hỏi</th>
+                            <th>Loại câu hỏi</th>
+                            <th>#</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody id="showBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <input type="submit" class="popup-btn-confirm mr-1 reviewAll" value="Review" data-toggle="modal" data-target="#totalReview" onclick="showFeedback()" />
+    @using (Html.BeginForm("UpdateDetail", "Feedback", FormMethod.Post, new { @class = "needs-validation", @novalidate = "" }))
+    {
+        @Html.HiddenFor(model => model.Feedback, new { @id = "feedbackInfo" })
+        @Html.Hidden("listQuestionInsert", new { @id = "listQuestionInsert" })
+        @Html.Hidden("listQuestionDelete", new { @id = "listQuestionDelete" })
+        <input type="submit" class="popup-btn-confirm mr-1" value="Lưu" onclick="createUpdateValue()" style="float: left" />
+    }
+</div>

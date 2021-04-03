@@ -1,0 +1,408 @@
+﻿@model ModelsFeedbackSystem.Models.Equipment
+@{
+    ViewData["Title"] = "ShowAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Feedback - Feedback Management System</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <script>
+        function showQR(id) {
+            var qrText = "https://feedbackwebqr.azurewebsites.net/" + "Home/GetFeedback?equipmentId=" + id;
+            window.location.href = '@Url.Action("ShowQR", "Equipment")?qrText=' + qrText;
+        }
+        //get values for field in update popup
+        function getId(i) {
+            var obj = @Html.Raw(ViewBag.listJson);
+            var convert = JSON.stringify(obj);
+            var equipsJson = JSON.parse(convert);
+            var equip = equipsJson[i];
+            $('#upEquipId').text(equip.EquipmentId);
+            $('#upEquipGroupId').prop('selectedIndex', i);
+            $('#upEquipName').val(equip.EquipmentName);
+            $('#upNote').text(equip.Note);
+            if (equip.Active == 1) {
+                $('#upActive').text("Đã kích hoạt");
+            }
+            else {
+                $('#upActive').text("Chưa kích hoạt");
+            }
+            $('#upActive').val(equip.Active);
+
+            if (equip.Type == 1) {
+                $('#upType').text("Kiosk");
+            }
+            else {
+                $('#upType').text("QR code");
+            }
+
+            $('#upEquipmentId').val(equip.EquipmentId);
+            $('#upType').val(equip.Type);
+            $('#upSecurityCode').val(equip.EquipmentSercurityCode);
+        }
+
+        function getDetail(i) {
+            var obj = @Html.Raw(ViewBag.listJson);
+            var convert = JSON.stringify(obj);
+            var equipsJson = JSON.parse(convert);
+            var equip = equipsJson[i];
+            $('#detailEquipId').text(equip.EquipmentId);
+            $('#detailEquipName').text(equip.EquipmentName);
+            $('#detailEquipNote').text(equip.Note);
+            $('#detailEquipGroupId').text(equip.EquipmentGroupId);
+            if (equip.Active == 1) {
+                $('#detailEquipActive').text("Đã kích hoạt");
+            }
+            else {
+                $('#detailEquipActive').text("Chưa kích hoạt");
+            }
+
+            if (equip.Type == 1) {
+                $('#detailEquipType').text("Kiosk");
+            }
+            else {
+                $('#detailEquipType').text("QR code");
+            }
+
+            $('#detailEquipDate').text(equip.CreateDate);
+        }
+
+        function getEquipId(id) {
+            $('#delEquipmentId').val(id);
+            $('#logOutEquipmentId').val(id);
+        }
+
+        function createValue() {
+            if ($("#equipGroupType :selected").text() == "Kiosk") {
+                $('#equipGroupType').val(1);
+            } else {
+                $('#equipGroupType').val(2);
+            }
+            $('#isActive').val(0);
+        }
+
+        //valid field in form
+        (function () {
+            'use strict';
+            window.addEventListener('load', function () {
+                // Get the forms we want to add validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function (form) {
+                    form.addEventListener('submit', function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+
+    <!-- Popup insert -->
+    <div class="modal" id="createNew">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                @using (Html.BeginForm("CreateNew", "Equipment", FormMethod.Post, new { @class = "needs-validation", @novalidate = "" }))
+                {
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Thêm mới thiết bị</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <fieldset>
+                            <div class="form-group">
+                                <label for="equipName">* Tên thiết bị</label>
+                                @Html.TextBoxFor(model => model.EquipmentName, new { @class = "form-control", @id = "equipName", @required = "require" })
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group" style="float:left; width: 48%;">
+                                <label for="equipGroupName">* Tên nhóm thiết bị</label><br />
+                                @Html.DropDownListFor(model => model.EquipmentGroupId, new SelectList(ViewBag.listEquipGroup, "EquipmentGroupId", "EquipmentGroupId"), new { @class = "extra-class" })
+                            </div>
+                            <div class="form-group" style="float:left; width: 50%; margin-left: 13px;">
+                                <label for="equipGroupType">* Loại thiết bị</label><br />
+                                @Html.DropDownListFor(model => model.Type, new SelectListItem[] { 
+                                                        new SelectListItem() { Text = "Kiosk", Value = "1" },
+                                                        new SelectListItem() { Text = "QR code", Value = "2" 
+                                                    }}, new { @class = "extra-class", @id = "equipGroupType" })
+                            </div>
+                            <div class="form-group">
+                                <label for="equipGroupName">Ghi chú</label>
+                                @Html.TextAreaFor(model => model.Note, new { @class = "form-control", @id = "note" })
+                            </div>
+
+                            @Html.HiddenFor(model => model.Active, new { @id = "isActive" })
+                        </fieldset>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                        <input type="submit" class="popup-btn-confirm mr-1" value="Thêm mới" onclick="createValue()" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup update -->
+    <div class="modal" id="update">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                @using (Html.BeginForm("UpdateEquipment", "Equipment", FormMethod.Post, new { @class = "needs-validation", @novalidate = "" }))
+                {
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Cập nhật thiết bị</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <fieldset>
+                            <div class="form-group" id="upId">
+                                <label>Mã thiết bị</label>
+                                @Html.LabelFor(model => model.EquipmentId, new { @class = "form-control", @id = "upEquipId" })
+                            </div>
+                            <div class="form-group" id="upEquipType">
+                                <label>Loại thiết bị</label>
+                                @Html.LabelFor(model => model.Type, new { @class = "form-control", @id = "upType" })
+                            </div>
+                            <div class="form-group">
+                                <label for="upEquipName">* Tên thiết bị</label>
+                                @Html.TextBoxFor(model => model.EquipmentName, new { @class = "form-control", @id = "upEquipName", @required = "require" })
+                                <div class="invalid-feedback">Please fill out this field.</div>
+                            </div>
+                            <div class="form-group" id="column1-updatepopup">
+                                <label for="upEquipGroupId">Tên nhóm thiết bị</label><br />
+                                @Html.DropDownListFor(model => model.EquipmentGroupId, new SelectList(ViewBag.listEquipGroup, "EquipmentGroupId", "EquipmentGroupId"), new { @class = "extra-class", @id = "upEquipGroupId" })
+                            </div>
+                            <div class="form-group" id="column2-updatepopup">
+                                <label for="upActive">Trạng thái</label>
+                                @Html.LabelFor(model => model.Active, new { @class = "form-control", @id = "upActive" })
+                            </div>
+                            <div class="form-group">
+                                <label for="upNote">Ghi chú</label>
+                                @Html.TextAreaFor(model => model.Note, new { @class = "form-control", @id = "upNote" })
+                            </div>
+
+                            @Html.HiddenFor(model => model.EquipmentId, new { @id = "upEquipmentId" })
+                            @Html.HiddenFor(model => model.EquipmentSercurityCode, new { @id = "upSecurityCode" })
+                            @Html.HiddenFor(model => model.CreateDate, new { @id = "upCreateDate" })
+                        </fieldset>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                        <input type="submit" class="popup-btn-confirm mr-1" value="Cập nhật" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup delete -->
+    <div class="modal" id="delete">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                @using (Html.BeginForm("DeleteEquipment", "Equipment", FormMethod.Post))
+                {
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Xác nhận</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Bạn có muốn xóa thiết bị này?
+                    </div>
+                    <div class="modal-footer">
+                        @Html.HiddenFor(model => model.EquipmentId, new { @id = "delEquipmentId" })
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                        <input type="submit" class="popup-btn-confirm mr-1" value="OK" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup log out -->
+    <div class="modal" id="logout">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                @using (Html.BeginForm("Logout", "Equipment", FormMethod.Post))
+                {
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Xác nhận</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Bạn có muốn xóa thiết bị này?
+                    </div>
+                    <div class="modal-footer">
+                        @Html.HiddenFor(model => model.EquipmentId, new { @id = "logOutEquipmentId" })
+                        @Html.Hidden("brandId", new { @id = "logOutBrandId" })
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                        <input type="submit" class="popup-btn-confirm mr-1" value="OK" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup show detail -->
+    <div class="modal" id="showDetail">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content" style="padding-left: 20px; padding-right: 20px; height: 400px; width: 90%;">
+                <h1 style="font-family: Calibri;">Chi tiết</h1>
+                <table class="detailTable">
+                    <tr class="detailTr">
+                        <td class="detailTd1">Mã thiết bị:</td>
+                        <td id="detailEquipId"></td>
+                    </tr>
+                    <tr class="detailTr">
+                        <td class="detailTd1">Tên thiết bị:</td>
+                        <td id="detailEquipName"></td>
+                    </tr>
+                    <tr class="detailTr">
+                        <td class="detailTd1">Loại thiết bị:</td>
+                        <td id="detailEquipType"></td>
+                    </tr>
+                    <tr class="detailTr">
+                        <td class="detailTd1">Ghi chú:</td>
+                        <td id="detailEquipNote"></td>
+                    </tr>
+                    <tr class="detailTr">
+                        <td class="detailTd1">Nhóm thiết bị:</td>
+                        <td id="detailEquipGroupId"></td>
+                    </tr>
+                    <tr class="detailTr">
+                        <td class="detailTd1">Trạng thái:</td>
+                        <td id="detailEquipActive"></td>
+                    </tr class="detailTr">
+                    <tr class="detailTr">
+                        <td class="detailTd1">Ngày tạo:</td>
+                        <td id="detailEquipDate"></td>
+                    </tr>
+                </table>
+                <button type="button" class="btn btn-danger btnCloseDetail" data-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="page-header">
+                <h2 class="pageheader-title">Quản lý thiết bị</h2>
+                <button type="button" class="pageheader-createbutton" data-toggle="modal" data-target="#createNew">Thêm mới</button>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- end pageheader -->
+    <!-- ============================================================== -->
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="card">
+            <h5 class="card-header">Thiết bị</h5>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered first">
+                        <thead>
+                            <tr>
+                                <th>STT</th>
+                                <th>Mã thiết bị</th>
+                                <th>Tên thiết bị</th>
+                                <th>Loại thiết bị</th>
+                                <th>Ghi chú</th>
+                                <th>Nhóm thiết bị</th>
+                                <th>Trạng thái</th>
+                                <th>Ngày tạo</th>
+                                <th>#</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{ if (ViewBag.listEquip != null)
+                                {
+                                       
+                                    List<ModelsFeedbackSystem.Models.Equipment> list = (List<ModelsFeedbackSystem.Models.Equipment>)ViewBag.listEquip;
+                                    for (int i = 0; i < list.Count; i++)
+                                    {
+                                        <tr>
+                                            <td class="column1-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">@(i+1)</td>
+                                            <td class="column2-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">@list[i].EquipmentId</td>
+                                            <td class="column3-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">@list[i].EquipmentName</td>
+                                            @if (@list[i].Type == 1)
+                                            {
+                                                <td class="column4-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">Kiosk</td>
+                                            }
+                                            else
+                                            {
+                                                <td class="column4-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">QR code</td>
+                                            }
+                                            <td class="column5-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">@list[i].Note</td>
+                                            <td class="column6-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">@list[i].EquipmentGroupId</td>
+                                            @if (@list[i].Active == 1)
+                                            {
+                                                <td class="column7-equipment" style="color: limegreen" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">Đã kích hoạt</td>
+                                            }
+                                            else
+                                            {
+                                                <td class="column7-equipment" style="color: red" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">Chưa kích hoạt</td>
+                                            }
+                                            <td class="column8-equipment" data-toggle="modal" data-target="#showDetail" onclick="getDetail('@i')">@list[i].CreateDate</td>
+                                            <td>
+                                                <div class="dropdown dropleft">
+                                                    <button class="button-more"><i class="fa fa-ellipsis-v"></i></button>
+                                                    <div id="more-content" class="dropdown-more-content">
+                                                        @if (list[i].Type == 2)
+                                                        {
+                                                            <a href="#QR" onclick="showQR('@list[i].EquipmentId')">Lấy lại QR code</a>
+                                                        }
+                                                        <a href="#update" data-toggle="modal" data-target="#update" onclick="getId('@i')">Cập nhật</a>
+                                                        <a href="#logout" data-toggle="modal" data-target="#logout" onclick="getEquipId('@list[i].EquipmentId')">Đăng xuất</a>
+                                                        <a href="#delete" data-toggle="modal" data-target="#delete" onclick="getEquipId('@list[i].EquipmentId')">Xóa</a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.0.4/js/dataTables.rowGroup.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</body>
+
+</html>
+

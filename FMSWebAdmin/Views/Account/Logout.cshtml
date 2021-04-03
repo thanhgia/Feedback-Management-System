@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/Error.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="google-signin-client_id" content="1076827265770-m6m4tflctimmghrahqn5c6pnrm1n5o5p.apps.googleusercontent.com">
+    <meta name="viewport" content="width=device-width" />
+    <title>Feedback - Feedback Management System</title>
+    <script>
+        function onLoad() {
+            gapi.load('auth2', function() {
+                gapi.auth2.init();
+            });
+        }
+
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut();
+            localStorage.removeItem('token');
+            window.location.href = '@Url.Action("Login", "Account")';
+        }
+    </script>
+</head>
+<body>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
+    You don't have authorization to use the system!
+    <a href="#" onclick="signOut();">Sign out</a>
+
+</body>
+</html>
+

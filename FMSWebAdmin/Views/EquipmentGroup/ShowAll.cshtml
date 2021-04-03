@@ -1,0 +1,196 @@
+﻿@model ModelsFeedbackSystem.Models.EquipmentGroup
+@{
+    ViewData["Title"] = "ShowAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Feedback - Feedback Management System</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script>
+    function getEquipGroupId(id) {
+        $('#delEquipGroupId').val(id);
+        $('#delBrandId').val("B000001");
+    }
+    //get values for field in update popup
+    function getId(id, nameOfGroup, note) {
+        $('#upEquipGroupId').text(id);
+        $('#upEquipGroupId').val(id);
+        $('#upName').val(nameOfGroup);
+        $('#upNote').text(note);
+
+        $('#upEGId').val($("#upEquipGroupId").text());
+    }
+</script>
+
+<!-- Popup insert -->
+<div class="modal" id="createNew">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            @using (Html.BeginForm("CreateNew", "EquipmentGroup", FormMethod.Post, new { @class = "needs-validation", @novalidate = "" }))
+            {
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Thêm mới nhóm thiết bị</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <fieldset>
+                        <div class="form-group">
+                            <label for="equipGroupName">* Tên nhóm thiết bị</label>
+                            @Html.TextBoxFor(model => model.NameOfGroup, new { @class = "form-control", @id = "equipGroupName", @required = "require" })
+                            <div class="invalid-feedback">Vui lòng điền tên nhóm thiết bị</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="note">Ghi chú</label>
+                            @Html.TextAreaFor(model => model.Note, new { @class = "form-control", @id = "note" })
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                    <input type="submit" class="popup-btn-confirm mr-1" value="Thêm mới" onclick="createValue()"/>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Popup update -->
+<div class="modal" id="update">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            @using (Html.BeginForm("UpdateGroupEquipment", "EquipmentGroup", FormMethod.Post))
+            {
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Cập nhật nhóm thiết bị</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <fieldset>
+                        <div class="form-group">
+                            <label>* Mã nhóm thiết bị</label>
+                            @Html.LabelFor(model => model.EquipmentGroupId, new { @class = "form-control", @id = "upEquipGroupId" })
+                        </div>
+                        <div class="form-group">
+                            <label for="upName">Tên nhóm thiết bị</label>
+                            @Html.TextBoxFor(model => model.NameOfGroup, new { @class = "form-control", @id = "upName" })
+                        </div>
+                        <div class="form-group">
+                            <label for="upNote">Ghi chú</label>
+                            @Html.TextAreaFor(model => model.Note, new { @class = "form-control", @id = "upNote" })
+                        </div>
+                        @Html.HiddenFor(model => model.EquipmentGroupId, new { @id = "upEGId" })
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                    <input type="submit" class="popup-btn-confirm mr-1" value="Cập nhật" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Popup delete -->
+<div class="modal" id="delete">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            @using (Html.BeginForm("DeleteEquipGroup", "EquipmentGroup", FormMethod.Post))
+            {
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Xác nhận</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Bạn có muốn xóa nhóm thiết bị này?
+                </div>
+                <div class="modal-footer">
+                    @Html.HiddenFor(model => model.EquipmentGroupId, new { @id = "delEquipGroupId" })
+                    @Html.Hidden("brandId", new { @id = "delBrandId" })
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                    <input type="submit" class="popup-btn-confirm mr-1" value="OK" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="page-header">
+            <h2 class="pageheader-title">Quản lý nhóm thiết bị</h2>
+            <button type="button" class="pageheader-createbutton" data-toggle="modal" data-target="#createNew">Thêm mới</button>
+        </div>
+    </div>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+    <div class="card">
+        <h5 class="card-header">Nhóm thiết bị</h5>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered first">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã nhóm thiết bị</th>
+                            <th>Tên nhóm thiết bị</th>
+                            <th>Ngày tạo</th>
+                            <th>Ghi chú</th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{ if (ViewBag.listEquipGroup != null)
+                            {
+                                List<ModelsFeedbackSystem.Models.EquipmentGroup> list = (List<ModelsFeedbackSystem.Models.EquipmentGroup>)ViewBag.listEquipGroup;
+                                for (int i = 0; i < list.Count; i++)
+                                {
+                                    <tr>
+                                        <td class="column1-equipmentgroup">@i</td>
+                                        <td class="column2-equipmentgroup">@list[i].EquipmentGroupId</td>
+                                        <td class="column3-equipmentgroup">@list[i].NameOfGroup</td>
+                                        <td class="column4-equipmentgroup">@list[i].CreateDate</td>
+                                        <td class="column5-equipmentgroup">@list[i].Note</td>
+                                        <td>
+                                            <div class="dropdown">
+                                                <button class="button-more"><i class="fa fa-ellipsis-v"></i></button>
+                                                <div id="more-content" class="dropdown-more-content">
+                                                    <a href="#list">Danh sách thiết bị</a>
+                                                    <a href="#update" data-toggle="modal" data-target="#update" onclick="getId('@list[i].EquipmentGroupId', '@list[i].NameOfGroup', '@list[i].Note')">Cập nhật</a>
+                                                    <a href="#delete" data-toggle="modal" data-target="#delete" onclick="getEquipGroupId('@list[i].EquipmentGroupId')">Xóa</a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================================================== -->
+<!-- Optional JavaScript -->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+<script src="https://cdn.datatables.net/rowgroup/1.0.4/js/dataTables.rowGroup.min.js"></script>
+<script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+<script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+

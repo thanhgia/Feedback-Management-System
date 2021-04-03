@@ -1,0 +1,237 @@
+﻿@model ModelsFeedbackSystem.Models.EquipmentGroup
+@{
+    ViewBag.Title = "Admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Feedback - Feedback Management System</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="~/MainBootstrap/documentation/css/custom.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="page-header">
+                <h2 class="pageheader-title">Thống kê</h2>
+                <!--<button type="button" class="pageheader-createbutton" onclick="test()">Test</button>-->
+                @using (Html.BeginForm("GetListFeedbackByEquipmentGroupId", "Admin", FormMethod.Post))
+                {
+                    <div id="searchStatistic" class="form-group" style="float:left; width: 70%;">
+                        <label for="EquipGroupId" id="EquipGroupIdLabel" style="float: left; margin: 8px 40px 8px">* Tên khu vực </label>
+                        @Html.DropDownListFor(model => model.EquipmentGroupId, (IEnumerable<SelectListItem>)ViewBag.listEquipmentGroupIdByBrandId, new { @class = "form-control", @id = "EquipGroupId" })
+
+                    </div>
+                    <div class="form-group" style="float:left;">
+                        <input type="submit" id="feedbackInput" class="popup-btn-confirm mr-1" value="Chọn" onclick="" />
+                    </div>
+                }
+                @{
+                    if (ViewBag.checkListEquipmentNotNull == 1)
+                    {
+                        <div class="form-group" id="searchStatistic" style="float:left;" >
+                            <label for="check" style="color:red;">Không có phản hồi trong khu vực này. Vui long chọn lại! </label><br />
+                        </div>
+                    }
+                }
+
+                @{
+
+                    if (ViewBag.feedbackId != null || ViewBag.listFeedback != null)
+                    {
+                        @using (Html.BeginForm("GetResponseByFeedbackId", "Admin", FormMethod.Post))
+                        {
+
+                            <div id="searchStatistic" class="form-group" style="float:left; width: 70%;">
+                                <label for="FeedbackIds" style="float: left; margin: 8px 38px 8px">* Tên phản hồi</label>
+
+                                @Html.DropDownList("feedbackId", (IEnumerable<SelectListItem>)ViewBag.listFeedback, new { @class = "form-control", @id = "FeedbackIds" })
+                            </div>
+                            <div class="form-group" style="float:left;">
+                                <input type="submit" class="popup-btn-confirm mr-1" value="Chọn" onclick=""/>
+                            </div>
+                        }
+                    }
+                }
+            </div>
+        </div>
+    </div>
+
+    @{
+        if (ViewBag.listQuestion != null)
+        {
+            if (ViewBag.listQuestion.Count > 0)
+            {
+                <label class="kibanaLabel">Thống kê số lượng phản hồi từ khách hàng theo thời gian</label><br />
+                <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/e5d50f20-d1b6-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:''),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(drop_partials:!f,extended_bounds:(),field:responseTime,interval:auto,min_doc_count:1,scaleMetricValues:!f,timeRange:(from:now-3M,to:now),useNormalizedEsInterval:!t),schema:segment,type:date_histogram)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!t,show:!t,truncate:100),position:bottom,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,interpolate:linear,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:line,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:line,valueAxes:!((id:ValueAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:100),name:LeftAxis-1,position:left,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Count%20Of%20Response%20for%20Feedback',type:line))&_g=(filters:!(),refreshInterval:(pause:!f,value:60000),time:(from:now-3M,to:now))&indexPattern=1212daa0-d1b6-11ea-b75d-41b45abb9d59&type=line" height="400" width="800"></iframe>
+                for (int questionIndex = 0; questionIndex < ViewBag.listQuestion.Count; questionIndex++)
+                {
+                    switch (questionIndex)
+                    {
+                        case 0:
+                            switch (ViewBag.listQuestion[questionIndex].TypeOfQuestion)
+                            {
+                                case 1:
+                                    <label class="kibanaLabel">1.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/70b99940-d14d-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%220%22%20and%20typeOfQuestion%20:%201'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%200%20type%201',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 2:
+                                    <label class="kibanaLabel">1.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/b78c2aa0-d165-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%220%22%20%20and%20typeOfQuestion%20:%202'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%200%20Type%202',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 3:
+                                    <label class="kibanaLabel">1.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/88c5fc60-d1af-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%220%22%20and%20typeOfQuestion%20:%203'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%200%20Type%203',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                case 4:
+                                    <label class="kibanaLabel">1.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/a8a924d0-d169-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%220%22%20and%20typeOfQuestion%20:%204'),uiState:(vis:(colors:(Chanh:%239AC48A))),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(customLabel:'',field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:_key,otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTooltip:!t,isDonut:!t,labels:(last_level:!t,show:!f,truncate:100,values:!t),legendPosition:right,type:pie),title:'Question%200%20Type%204',type:pie))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=pie" height="400" width="800"></iframe>
+                                    break;
+                                case 5:
+                                    <label class="kibanaLabel">1.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/0829ed20-d16c-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%220%22%20and%20typeOfQuestion%20:%205'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%200%20Type%205',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                default: break;
+                            }
+
+                            break;
+                        case 1:
+                            switch (ViewBag.listQuestion[questionIndex].TypeOfQuestion)
+                            {
+                                case 1:
+                                    <label class="kibanaLabel">2.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/f1a6c6a0-d14c-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%221%22%20and%20typeOfQuestion%20:%201'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%201%20type%201',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 2:
+                                    <label class="kibanaLabel">2.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/7d580fd0-d155-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%221%22%20and%20typeOfQuestion%20:%202'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%201%20Type%202',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 3:
+                                    <label class="kibanaLabel">2.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/a2f52c00-d1af-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%221%22%20and%20typeOfQuestion%20:%203'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%201%20Type%203',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                case 4:
+                                    <label class="kibanaLabel">2.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/99f302c0-d16a-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%221%22%20and%20typeOfQuestion%20:%204'),uiState:(vis:(colors:(Chanh:%239AC48A))),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(customLabel:'',field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:_key,otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTooltip:!t,isDonut:!t,labels:(last_level:!t,show:!f,truncate:100,values:!t),legendPosition:right,type:pie),title:'Question%201%20Type%204',type:pie))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))" height="400" width="800"></iframe>
+                                    break;
+                                case 5:
+                                    <label class="kibanaLabel">2.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/1993c810-d16c-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%221%22%20and%20typeOfQuestion%20:%205'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%201%20Type%205',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                default: break;
+                            }
+
+                            break;
+                        case 2:
+                            switch (ViewBag.listQuestion[questionIndex].TypeOfQuestion)
+                            {
+                                case 1:
+                                    <label class="kibanaLabel">3.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/a8a14650-d14d-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%222%22%20and%20typeOfQuestion%20:%201'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%202%20type%201',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 2:
+                                    <label class="kibanaLabel">3.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/36f7f2b0-d166-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%222%22%20and%20typeOfQuestion%20:%202'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%202%20Type%202',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 3:
+                                    <label class="kibanaLabel">3.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/ee25fb50-d1af-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%222%22%20and%20typeOfQuestion%20:%203'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%202%20Type%203',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                case 4:
+                                    <label class="kibanaLabel">3.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/80ff3950-d16a-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%222%22%20and%20typeOfQuestion%20:%204'),uiState:(vis:(colors:(Chanh:%239AC48A))),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(customLabel:'',field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:_key,otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTooltip:!t,isDonut:!t,labels:(last_level:!t,show:!f,truncate:100,values:!t),legendPosition:right,type:pie),title:'Question%202%20Type%204',type:pie))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))" height="400" width="800"></iframe>
+                                    break;
+                                case 5:
+                                    <label class="kibanaLabel">3.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/2d2df080-d16c-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%222%22%20and%20typeOfQuestion%20:%205'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%202%20Type%205',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                default: break;
+                            }
+
+                            break;
+                        case 3:
+                            switch (ViewBag.listQuestion[questionIndex].TypeOfQuestion)
+                            {
+                                case 1:
+                                    <label class="kibanaLabel">4.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/bffd7fd0-d14d-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%223%22%20and%20typeOfQuestion%20:%201'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%203%20type%201',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 2:
+
+                                    <label class="kibanaLabel">4.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/52b20810-d166-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%223%22%20and%20typeOfQuestion%20:%202'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%203%20Type%202',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 3:
+                                    <label class="kibanaLabel">4.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/feddc450-d1af-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%223%22%20and%20typeOfQuestion%20:%203'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%203%20Type%203',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe><label>4.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    break;
+                                case 4:
+                                    <label class="kibanaLabel">4.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/0528cd00-d16a-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%223%22%20%20and%20typeOfQuestion%20:%204'),uiState:(vis:(colors:(Chanh:%239AC48A))),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(customLabel:'',field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:_key,otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTooltip:!t,isDonut:!t,labels:(last_level:!t,show:!f,truncate:100,values:!t),legendPosition:right,type:pie),title:'Question%203%20Type%204',type:pie))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=pie" height="400" width="800"></iframe>
+                                    break;
+                                case 5:
+                                    <label class="kibanaLabel">4.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/3c6fbb50-d16c-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%223%22%20and%20typeOfQuestion%20:%205'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%203%20Type%205',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                default: break;
+                            }
+
+                            break;
+                        case 4:
+                            switch (ViewBag.listQuestion[questionIndex].TypeOfQuestion)
+                            {
+                                case 1:
+                                    <label class="kibanaLabel">5.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/c77e94b0-d14d-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%224%22%20and%20typeOfQuestion%20:%201'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%204%20type%201',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 2:
+                                    <label class="kibanaLabel">5.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/c49b0fe0-d165-11ea-b75d-41b45abb9d59?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%224%22%20and%20typeOfQuestion%20:%202'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%204%20Type%202',type:horizontal_bar))" height="400" width="800"></iframe>
+                                    break;
+                                case 3:
+                                    <label class="kibanaLabel">5.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/feddc450-d1af-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%224%22%20and%20typeOfQuestion%20:%203'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%204%20Type%203',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                case 4:
+                                    <label class="kibanaLabel">5.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/519aa7d0-d16a-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%224%22%20%20and%20typeOfQuestion%20:%204'),uiState:(vis:(colors:(Chanh:%239AC48A))),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(customLabel:'',field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:_key,otherBucket:!f,otherBucketLabel:Other,size:5),schema:segment,type:terms)),params:(addLegend:!t,addTooltip:!t,isDonut:!t,labels:(last_level:!t,show:!f,truncate:100,values:!t),legendPosition:right,type:pie),title:'Question%204%20Type%204',type:pie))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=pie" height="400" width="800"></iframe>
+                                    break;
+                                case 5:
+                                    <label class="kibanaLabel">5.@ViewBag.listQuestion[questionIndex].ContentQuestion</label><br />
+                                    <iframe class="kibanaIframe" src="http://localhost:5601/app/kibana#/visualize/edit/6b731a00-d16c-11ea-b75d-41b45abb9d59?embed=true&_a=(filters:!(),linked:!f,query:(language:kuery,query:'questionId.keyword%20:%20%224%22%20and%20typeOfQuestion%20:%205'),uiState:(),vis:(aggs:!((enabled:!t,id:'1',params:(),schema:metric,type:count),(enabled:!t,id:'2',params:(field:responseDetail.keyword,missingBucket:!f,missingBucketLabel:Missing,order:desc,orderBy:'1',otherBucket:!f,otherBucketLabel:Other,size:10),schema:segment,type:terms)),params:(addLegend:!t,addTimeMarker:!f,addTooltip:!t,categoryAxes:!((id:CategoryAxis-1,labels:(filter:!f,rotate:0,show:!t,truncate:200),position:left,scale:(type:linear),show:!t,style:(),title:(),type:category)),grid:(categoryLines:!f),labels:(),legendPosition:right,seriesParams:!((data:(id:'1',label:Count),drawLinesBetweenPoints:!t,lineWidth:2,mode:normal,show:!t,showCircles:!t,type:histogram,valueAxis:ValueAxis-1)),thresholdLine:(color:%23E7664C,show:!f,style:full,value:10,width:1),times:!(),type:histogram,valueAxes:!((id:ValueAxis-1,labels:(filter:!t,rotate:75,show:!t,truncate:100),name:LeftAxis-1,position:bottom,scale:(mode:normal,type:linear),show:!t,style:(),title:(text:Count),type:value))),title:'Question%204%20Type%205',type:horizontal_bar))&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-4M,to:now))&indexPattern=e4c41e50-d148-11ea-b75d-41b45abb9d59&type=horizontal_bar" height="400" width="800"></iframe>
+                                    break;
+                                default: break;
+                            }
+
+                            break;
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    @*<h1>Login</h1>
+        @ViewBag.token;*@
+
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/rowgroup/1.0.4/js/dataTables.rowGroup.min.js"></script>
+    <script src="https://cdn.datatables.net/select/1.2.7/js/dataTables.select.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>

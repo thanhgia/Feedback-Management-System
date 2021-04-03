@@ -1,0 +1,1473 @@
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+G:\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csprojAssemblyReference.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+G:\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\ManageAccount.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Gift\ManageGift.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Admin.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Thanks\ManageThanks.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\ChuyenNganh7\SWD+HCI\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\ManageAccount.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowQR.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Gift\ManageGift.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Admin.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Thanks\ManageThanks.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\ASUS\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\ManageAccount.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowQR.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Gift\ManageGift.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Admin.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Thanks\ManageThanks.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\SourceTreeWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Auth.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Storage.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\ManageAccount.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowQR.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Gift\ManageGift.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Image\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Admin.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Thanks\ManageThanks.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\SWD\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Auth.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Storage.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\ManageAccount.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowQR.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Gift\ManageGift.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Image\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Admin.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SignUp.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Thanks\ManageThanks.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Auth.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Storage.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\ManageAccount.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowQR.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Gift\ManageGift.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Image\ShowAll.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Admin.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SignUp.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Thanks\ManageThanks.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\ASUS\Desktop\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\google-services.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.deps.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\New folder (3)\ModelsFeedbackSystem.runtimeconfig.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.exe
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.deps.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Elasticsearch.Net.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\FirebaseAdmin.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Auth.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Firebase.Storage.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Api.Gax.Rest.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Google.Apis.Core.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Redis.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\Quartz.Serialization.Json.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\StackExchange.Redis.StrongName.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\bin\Debug\netcoreapp3.1\ModelsFeedbackSystem.pdb
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.AssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.input.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.TagHelpers.output.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorCoreGenerate.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Account\ManageAccount.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\EquipmentGroup\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Equipment\ShowQR.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\CreateDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\ViewDetail.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Gift\ManageGift.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Image\ShowAll.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Admin.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\SignUp.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Staff\ShowResult.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\Thanks\ManageThanks.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.RazorTargetAssemblyInfo.cs
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.Views.pdb
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.csproj.CopyComplete
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.Manifest.cache
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\staticwebassets\FMSWebAdmin.StaticWebAssets.xml
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.dll
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.pdb
+C:\Users\Admin\Desktop\New folder\FMSWebAdmin\FMSWebAdmin\obj\Debug\netcoreapp3.1\FMSWebAdmin.genruntimeconfig.cache

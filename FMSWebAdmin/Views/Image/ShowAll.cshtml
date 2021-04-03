@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewData["Title"] = "ShowAll";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Feedback - Feedback Management System</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        showImage();
+
+        function showImage() {
+            var listImage = @Html.Raw(ViewBag.listImage);
+            var container = document.getElementById('container');
+            for (var i = 0; i < listImage.length; i++) {
+
+                var div = document.createElement("div");
+                div.setAttribute("id", listImage[i].ImageId);
+                div.setAttribute("class", "divImage");
+
+                container.append(div);
+
+                var img = document.createElement('img');
+                img.src = listImage[i].ImageLink;
+                img.className = "totalImg";
+                div.append(img);
+            }
+        }
+        $("#newImage").change(function (e) {
+            $("#imageCreate").empty();
+            var file = e.originalEvent.srcElement.files[0];
+
+            var img = document.createElement("img");
+            img.setAttribute("width", 150);
+            img.setAttribute("height", 150);
+            var reader = new FileReader();
+            reader.onloadend = function () {
+                img.src = reader.result;
+            }
+            reader.readAsDataURL(file);
+            $("#imageCreate").append(img);
+        });
+    });
+
+    
+</script>
+
+<!-- Popup insert -->
+<div class="modal" id="createNew">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <form method="post" enctype="multipart/form-data" asp-controller="Image" asp-action="CreateNew" class="needs-validation">
+                <h3 style="text-align: center;">Thêm mới hình ảnh</h3>
+                <hr />
+                <div style="width: 48%; float: left; height: 170px;">
+                    <div class="form-group" style="margin-left: 15px;">
+                        <label for="imageName">Tên hình ảnh</label>
+                        <input name="Name" class="form-control" required />
+                        <div class="invalid-feedback">Mời nhập tên hình ảnh.</div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10">
+                            <input name="FileToUpload" type="file" class="form-control" id="newImage" accept="image/*" style="width: 120%" required />
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 50%; float:left; height: 170px; padding-left: 50px;" id="imageCreate"></div>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                <input type="submit" class="popup-btn-confirm mr-1" value="Thêm mới" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+        <div class="page-header">
+            <h2 class="pageheader-title">Quản lý hình ảnh</h2>
+            <button type="button" class="pageheader-createbutton" data-toggle="modal" data-target="#createNew">Thêm mới</button>
+        </div>
+    </div>
+</div>
+<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" id="container">
+
+</div>
+

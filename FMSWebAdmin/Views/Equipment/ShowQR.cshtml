@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "ShowQR";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+        $(document).ready(function () {
+            getUrl();
+
+            function getUrl() {
+                var rawUrl = @Html.Raw(ViewBag.Url);
+                var img = document.createElement('img');
+                img.src = "data:image/png;base64," + rawUrl.r;
+                img.id = "imgQR";
+                document.getElementById('qrCode').appendChild(img);
+            }
+        });
+</script>
+<style>
+    #imgQR {
+        width: 200px;
+        height: 200px;
+        margin-left: 40%;
+        margin-top: 20px;
+    }
+</style>
+<div class="card">
+    <div id="qrCode"></div>
+</div>
